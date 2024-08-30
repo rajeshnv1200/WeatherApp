@@ -26,7 +26,7 @@ import React, { useState } from 'react';
 import { Button, Image, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
 // Replace with your OpenWeatherMap API key
-const apiKey = 'e9711191d0dc3d6e95d2c4d944950efe';//'YOUR_API_KEY';
+const apiKey = 'apikey';//'YOUR_API_KEY';
 
 const App = () => {
   const [city, setCity] = useState('');
